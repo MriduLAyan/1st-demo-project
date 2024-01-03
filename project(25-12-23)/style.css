@@ -1,0 +1,512 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
+
+*{
+    margin: unset;
+    padding: unset;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Playfair Display', serif;;
+}
+
+header{
+    position: sticky;
+    top: 0%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    padding-right: 200px;
+    padding-top: 8px;
+}
+nav{
+    gap: 130px;
+}
+
+.navbar {
+    position: relative;
+    font-size: 13px;
+    top: -3px;
+    left: -68px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+}
+
+.navbar ul li{
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li a{
+    color: black;
+    font-weight: bold;
+}
+
+
+.surch-btn {
+    position: relative;
+    left: 140px;
+    width: 35px;
+    font-size: 20px;
+}
+
+/* header section End */
+
+/* hero section Start */
+
+.hero-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F8F9;
+    height: 706px;
+}
+
+.herotext{
+    width: 670px;
+    padding-left: 75px;
+}
+
+.herotext h1{
+    font-size: 81px;
+    color: #094B72;
+}
+
+.herotext .p1{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: gray;
+    margin-top: 35px;
+}
+
+.herotext button{
+    border: none;
+    background-color: #094B72;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 28px;
+}
+
+.herotext button a{
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.hero-link-area{
+    margin-top: 110px;
+}
+
+.hero-img img{
+    max-width: 433px;
+    position: relative;
+    top: -30px;
+    left: -80px;
+}
+
+.hero-link-area p{
+    color: gray;
+    font-weight: 300;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.hero-link{
+    position: relative;
+    top: 25px;
+}
+
+.link-img-1 img{
+    width: 52px;
+}
+
+.link-img-2{
+    position: relative;
+    right: -26px;
+}
+
+.link-img-2 img{
+    width: 44px;
+}
+
+.link-img-3 img{
+    width: 60px;
+    position: relative;
+    top: 10px;
+}
+.link-img-4{
+    position: relative;
+    right: -16px;
+}
+
+.link-img-4 img{
+    width: 42px;
+    position: relative;
+    top: 12px;
+}
+/* hero section End */
+
+
+/* Why section Start */
+.why-area{
+    background-color:#EEF7FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 101px;
+}
+
+.why-area-1{
+    max-width: 410px;
+    position: relative;
+    right: 40px;
+}
+
+.why-area-1 h2{
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.why-pra{
+    max-width: 354px;
+}
+
+.why-pra p{
+    font-family: sans-serif;
+    color: gray;
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+    line-height: 31px;
+}
+
+.why-card-1{
+    display:flex;
+}
+
+.why-card-2{
+    display: flex;
+}
+
+.why-area-2 p{
+    color: gray;
+    font-size:small ;
+    top: 20px;
+    position: relative;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+
+.why-0 .dot-1{
+    height: 40px;
+    width: 40px;
+    background-color: #C3E8F1;
+    border-radius: 50%;
+    position: relative;
+    right: -6px;
+    top: -10px;
+}
+.why-0 .dot-2{
+    height: 30px;
+    width: 30px;
+    background-color: #52A0B4;
+    border-radius: 50%;
+    position: relative;
+    top: -36px;
+    left: 2px;
+}
+.why-0 .dot-3{
+    height: 20px;
+    width: 20px;
+    background-color:#027794;
+    border-radius: 50%;
+    position: relative;
+    top: -52px;
+    left: -2px;
+}
+
+.why-0{
+    background-color: #fff;
+    position: relative;
+    max-width: 236px;
+    padding: 35px;
+    left: 10px;
+    bottom: 30px;
+    border-radius: 8px;
+    box-shadow:#F9F8F9;
+}
+
+.why-0 h4{
+    position: relative;
+    top: -48px;
+}
+
+.why-0 p{
+    position: relative;
+    top: -26px;
+}
+
+.why-1{
+    background-color: #fff;
+    position: relative;
+    left: 40px;
+    bottom: 30px;
+    max-width: 236px;
+    padding: 35px;
+    border-radius: 8px;
+}
+.why-2{
+    background-color: #fff;
+    position: relative;
+    max-width: 236px;
+    padding: 35px;
+    left: 10px;
+    border-radius: 8px;
+    height: 299px;
+}
+.why-3{
+    background-color: #fff;
+    position: relative;
+    left: 40px;
+    max-width: 236px;
+    padding: 35px;
+    border-radius: 8px;
+}
+/* Why section End */
+
+/* count section Start */
+.count-area{
+    background-image: url(./img/nbrbg.png);
+    color: #fff;
+    display: grid;
+    justify-content: center;
+    padding: 40px;
+    height: 250px;
+}
+
+.count-area h2{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.count-area p1{
+    position: relative;
+    font-size: 15px;
+    font-family: sans-serif;
+    left: 55px;
+    top: -30px;
+    color: #e9e8e8;
+}
+
+.count{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 5px;
+
+}
+
+.count-1 h3{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: sans-serif;
+    justify-items: center;
+}
+
+.count-1 p{
+    font-size: 10px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.count-1 .h8{
+    position: relative;
+    left: 20px;
+}
+
+.count-1 .pa{
+    position: relative;
+    left: 11px;
+}
+
+.col-1{
+    width: 1px;
+    height: 58px;
+    background-color: #fff;
+
+}
+
+/* count section End */
+
+
+
+
+
+
+
+
+
+/* media query Start for mobile */
+@media (min-width:350px) and (max-width:500px){
+    /* navbar Start */
+    header{
+        position: sticky;
+        top: 0%;
+        background-color: #fff;
+        z-index: 999;
+        height: 40px;
+    }
+
+    .logo{
+        position: absolute;
+        left: 52px;
+        top: -14px;
+    }
+
+    .logo img{
+        width: 70px;
+        position: relative;
+        top: 10px;
+        left: -20px;
+    }
+    nav{
+        gap:0px;
+    }
+
+    .navbar{
+        position: absolute;
+        top: -6px;
+        left: -76px;
+    }
+
+    .navbar ul{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 8px;
+    position: relative;
+    left: 194px;
+    top: 5px;
+    font-size: 8px;
+    }
+
+    nav .surch-btn{
+        position: relative;
+        top: 6px;
+        left: 218px;
+    }
+
+    /* navbar End */
+
+    /* hero section Start */
+
+    .herotext h1{
+        font-size: 35px;
+    }
+
+    .hero-img{
+        display: none;
+    }
+
+    .hero-link-area {
+        margin-top: 16px;
+    }
+    /* hero section end */
+
+    /* Why section Start */
+
+    .why-area{
+        background-color: #dff3fa;
+        display: grid;
+        text-align: center;
+    }
+
+    .why-area-1{
+        position: relative;
+        left: 12px;
+    }
+
+    .why-area-1 h2 {
+        font-weight: 800;
+        font-size: 34px;
+    }
+
+    .why-card-1{
+        display:unset;
+    }
+
+    .why-0{
+        background-color: transparent;
+        position: relative;
+        top: 95px;
+    }
+
+    .why-0 .dots{
+        position: relative;
+        left: 92px;
+    }
+    .why-1{
+        background-color: transparent;
+        position: relative;
+        top: 90px;
+        left: 5px;
+    }
+
+    .why-card-2{
+        display:unset   ;
+    }
+
+    .why-2{
+        background-color: transparent;
+        position: relative;
+        top: 115px;
+    }
+    .why-3{
+        background-color: transparent;
+        position: relative;
+        left: 3px;
+    }
+    /* Why section Start */
+
+    /* count area Start */
+
+    .count-area {
+        background-image: url(./img/nbrbg.png);
+        color: #fff;
+        display: grid;
+        justify-content: center;
+        padding: 40px;
+        height: 153px;
+    }
+
+    .count-area h2 {
+        font-weight: 800;
+        font-size: 30px;
+    }
+
+    .count-area p1 {
+        position: relative;
+        font-size: 12px;
+        font-family: sans-serif;
+        left: 34px;
+        top: -5px;
+        color: #e9e8e8;
+    }
+    /* count area End */
+
+}
+/* media query End */
